@@ -5,13 +5,12 @@ body {
 .square0 {
     background: #f5f5dd;
     width: 300px;
-    height: 300px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
 .text {
-    font-family: cursive;
+    font-family: sans-serif;
     margin-bottom: 20px;
     margin-left: 20px;
     color: #000000;
@@ -20,38 +19,40 @@ body {
 .image1 {
     background: linear-gradient(#e8f5ff, #45b2ff);
     width: 300px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    height: 300px;
+    
 }
 
 .image2 {
     background: linear-gradient(#ffa76a, #ff4431);
     width: 300px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    height: 300px;
+   
     
 }
 
 .image3 {
     background: linear-gradient(#9a8478, #1e130c);
     width: 300px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    height: 300px;
+   
 }
 
 .image4 {
     background: linear-gradient(#072239, #07d173);
     width: 300px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    height: 300px;
+    
 }
 
 p{ font-size: 16px;
     font-family: sans-serif;
     font-weight: normal;
+    margin-top:20px;
     margin-left:30px;
     margin-right:30px;
     margin-bottom:20px;
+    padding-bottom: 20px;
 
 }
 h2{font-size: 24px;
