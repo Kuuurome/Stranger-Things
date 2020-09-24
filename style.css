@@ -6,6 +6,11 @@ body {
     background: #f5f5dd;
     margin-left: 20px;
     margin-bottom: 20px;
+    border-radius: 6px;
+    transform: SkewY(2deg);
+    padding-top: 2px;
+    
+    
     
 }
 
@@ -14,12 +19,14 @@ body {
     margin-bottom: 20px;
     margin-left: 20px;
     color: #000000;
+    transform: skewY(2deg);
 }
 
 .image1 {
     background: linear-gradient(#e8f5ff, #45b2ff);
     margin-left: 20px;
     border-radius: 50%;
+    transform: skewY(2deg);
     
     
     
@@ -31,6 +38,7 @@ body {
     background: linear-gradient(#ffa76a, #ff4431);
     margin-left: 20px;
     border-radius: 50%;
+    transform: skewY(2deg);
    
     
 }
@@ -39,13 +47,14 @@ body {
     background: linear-gradient(#9a8478, #1e130c);
     margin-left: 20px;
     border-radius: 50%;
-   
+    transform: skewY(2deg);
 }
 
 .image4 {
     background: linear-gradient(#072239, #07d173);
     margin-left: 20px;
     border-radius: 50%;
+    transform: skewY(2deg);
     
 }
 
