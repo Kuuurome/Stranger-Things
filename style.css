@@ -2,17 +2,14 @@ body {
     background-color: black;
 }
 
-.square0 {
+.square {
     background: #f5f5dd;
     margin-left: 20px;
     margin-bottom: 20px;
     border-radius: 6px;
     transform: SkewY(2deg);
     padding-top: 2px;
-     width: 300px;
-    
- 
-    
+    width: 100%;   
     
 }
 
@@ -24,40 +21,40 @@ body {
     transform: skewY(2deg);
 }
 
-.image1 {
+.grad1 {
     background: linear-gradient(#e8f5ff, #45b2ff);
     margin-left: 20px;
     border-radius: 50%;
     transform: skewY(2deg);   
-    width: 300px;
+    width: 100%;
     
 }
 
-.image2 {
+.grad2 {
     background: linear-gradient(#ffa76a, #ff4431);
     margin-left: 20px;
     border-radius: 50%;
     transform: skewY(2deg); 
-    width: 300px;
+    width: 100%;
     
    
     
 }
 
-.image3 {
+.grad3 {
     background: linear-gradient(#9a8478, #1e130c);
     margin-left: 20px;
     border-radius: 50%;
     transform: skewY(2deg);
-    width: 300px;
+    width: 100%;
 }
 
-.image4 {
+.grad4 {
     background: linear-gradient(#072239, #07d173);
     margin-left: 20px;
     border-radius: 50%;
     transform: skewY(2deg);
-    width: 300px;
+    width: 100%;
     
 }
 
@@ -78,13 +75,52 @@ h2{font-size: 24px;
 }
 
 
-    
+ 
 
+  .carte:hover{
+      transform: scale(1.05,1.05);
+      animation-name: transition;
+      animation-duration: 0.3s;
+      animation-iteration-count:1;
+      animation-fill-mode: forwards;
+  }
+     @keyframes transition{
+            from{
+                transform: scale(1,1);
+            }
 
+            to{
+                transform: scale(1.05,1.05);
+            }
+     }
+   
+     .carte::after {
+        opacity: 0;
+        transition: opacity 0.3s;
+        animation-name: bounce;
+        animation-duration: 0.3s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+     }
+
+     @keyframes bounce{
+            from{
+
+            }
+
+            to{
+
+            }
+
+     }
 
 .breach{
-    transform: translateY(5px);
+    transform: translateY(5px) scale(1.05,1.05) skewY(2deg) ;
+    width: 100%;
+    height: auto;
 
 
 }
+
+
 
