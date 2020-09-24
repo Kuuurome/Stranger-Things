@@ -9,7 +9,9 @@ body {
     border-radius: 6px;
     transform: SkewY(2deg);
     padding-top: 2px;
+     width: 300px;
     
+ 
     
     
 }
@@ -27,6 +29,7 @@ body {
     margin-left: 20px;
     border-radius: 50%;
     transform: skewY(2deg);   
+    width: 300px;
     
 }
 
@@ -35,6 +38,7 @@ body {
     margin-left: 20px;
     border-radius: 50%;
     transform: skewY(2deg); 
+    width: 300px;
     
    
     
@@ -45,6 +49,7 @@ body {
     margin-left: 20px;
     border-radius: 50%;
     transform: skewY(2deg);
+    width: 300px;
 }
 
 .image4 {
@@ -52,6 +57,7 @@ body {
     margin-left: 20px;
     border-radius: 50%;
     transform: skewY(2deg);
+    width: 300px;
     
 }
 
@@ -72,10 +78,11 @@ h2{font-size: 24px;
 }
 
 
+    
+
+
 
 .breach{
-    width: 100%;
-    height: auto;
     transform: translateY(5px);
 
 
