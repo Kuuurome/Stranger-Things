@@ -94,21 +94,21 @@ h2{font-size: 24px;
             }
      }
    
-     .carte::after {
-        opacity: 0;
+     .carte:hover > .square {
         transition: opacity 0.3s;
         animation-name: bounce;
         animation-duration: 0.3s;
-        animation-fill-mode: forwards;
         animation-iteration-count: 1;
+        animation-fill-mode: forwards;
      }
 
      @keyframes bounce{
             from{
-
+                    background-color: #f5f5dd ;
             }
 
             to{
+                background-color: #dddddd;
 
             }
 
