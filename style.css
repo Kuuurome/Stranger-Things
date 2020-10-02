@@ -5,7 +5,7 @@ body {
 .square {
     background: #f5f5dd;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-right: 20px;
     border-radius: 6px;
     transform: SkewY(2deg);
     padding-top: 2px;
@@ -94,15 +94,14 @@ h2{font-size: 24px;
             }
      }
    
-     .carte:hover > .square {
-        transition: opacity 0.3s;
-        animation-name: bounce;
+     .carte:hover  .square {
+        animation-name: enhance;
         animation-duration: 0.3s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
      }
 
-     @keyframes bounce{
+     @keyframes enhance{
             from{
                     background-color: #f5f5dd ;
             }
@@ -115,11 +114,29 @@ h2{font-size: 24px;
      }
 
 .breach{
-    transform: translateY(5px) scale(1.05,1.05) skewY(2deg) ;
+    transform: translateY(5px) ;
     width: 100%;
     height: auto;
 
 
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+@media(min-width: 600px) {  
+    .container > div{ 
+        width: 50%;
+
+    }
+}
+@media(min-width: 900px){
+    .container > div{
+        width: 25%;
+    }
 }
 
 
